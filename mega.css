@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #108156;
+}
+
+.borda {
+    background-color: #108156;
+    width: 1080px;
+    height: 1080px;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.header {
+    color: white;
+}
+
+#concurso {
+    text-align: center;
+    font-size: 55px;
+    font-weight: 400;
+}
+
+#dataConcurso {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.background-numeros {
+    background: #0A714A;
+    border-radius: 188px 0px;
+    width: 100%;
+    max-width: 958px;
+    height: 309px;
+    padding: 20px;
+    margin: 93px auto 0;
+}
+
+.numeros ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.zSMazd,
+.UHlKbe {
+    margin: 0 8px;
+    padding: 0;
+    width: 150px;
+    height: 150px;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 149px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.zSMazd {
+    display: inline-block;
+    background-color: #B4D9B9;
+    color: #202124;
+    border-radius: 50%;
+}
+
+.frase {
+    width: 100%;
+    max-width: 787px;
+    height: auto;
+    margin: -110px auto;
+    border-radius: 70px 0px 70px 70px;
+    background-color: #1B9C6B;
+    padding: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.frase h3 {
+    color: white;
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 250px;
+    position: relative;
+    z-index: 3;
+}
+
+.img-balao {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
